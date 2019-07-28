@@ -1,0 +1,33 @@
+body{font-family: Helvetica, Arial, sans-serif; margin: 0px;}
+
+/*--------------------------------------------GROUP*/
+header{
+	background-color: #4959B5FF;
+	padding: 16px;
+}
+.description{
+	background-color: #00FF21FF;
+	padding: 10px;
+}
+header, .description{
+	text-align: center;
+}
+
+/*--------------------------------------------GROUP*/
+h1, p{display: inline-block; width: 400px;}
+.name, .profession{color: white;}
+.name{font-weight: bold;}
+.profession{font-weight: 200;}
+
+/*--------------------------------------------GROUP*/
+.sectionAll{
+	width: 960px;
+	margin-left: auto; margin-right: auto;
+	/*background-color: red;*/
+}
+.content1{display: inline-block; width: 69%;vertical-align: top;}
+.content2{display: inline-block; width: 30%;margin-top: 20px}
+
+h3{font-size: 36px; font-weight: bold;}
+dt{text-transform: uppercase; margin-bottom: 12px; margin-top: 25px;}
+#info{display: inline-block;}
